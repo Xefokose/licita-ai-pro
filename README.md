@@ -35,4 +35,24 @@ Colunas recomendadas:
 - `numero_acordao`: número do acórdão
 - `colegiado`: Plenário, 1ª Câmara, 2ª Câmara, etc.
 
-Exemplo:
+Exemplo: numero_acordao|ementa|colegiado
+387/2024|É possível a inversão de fases...|Plenário
+
+## ⚠️ Limitações do Plano Gratuito
+
+- **Performance**: Primeira execução pode levar 2-3 minutos
+- **Cache**: Modelo recarrega após 1h de inatividade
+- **Base de dados**: Máximo recomendado: 1.000 acórdãos para performance
+- **Privacidade**: Não envie dados sigilosos (CPF, valores exatos, nomes)
+
+## 🔧 Desenvolvimento
+
+- Framework: Streamlit (Python)
+- IA: sentence-transformers (HuggingFace)
+- Deploy: Streamlit Cloud (gratuito)
+- Dados: TCU Portal + Compras.gov (scraping leve)
+
+## 📞 Suporte
+
+Desenvolvido para **MICHEL SILVA SACRAMENTO**  
+MS LICITAÇÕES | CNPJ: 43.298.867/0001-88
